@@ -22,13 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <form method="POST">
         <input type="text" name="titulo" placeholder="Título do Livro" required><br><br>
         
-        <label for="autor">Selecione o Autor:</label><br>
-        <select name="autor" id="autor" required>
-            <option value="">-- Escolha um autor --</option>
-            <option value="Álvares de Azevedo">Álvares de Azevedo</option>
-            <option value="William Shakespeare">William Shakespeare</option>
-        </select>
-        <br><br>
+        <input type="text" name="autor" placeholder="Nome do Autor" required><br><br>
 
         <input type="number" name="ano" placeholder="Ano de Publicação"><br><br>
         <input type="text" name="genero" placeholder="Gênero Literário"><br><br>
